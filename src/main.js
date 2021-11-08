@@ -13,6 +13,9 @@ Vue.config.productionTip = false;
 Vue.filter("date", DateFilter);
 Vue.filter("error", ErrorFilter);
 
+// build error case
+aaaa();
+
 ApiService.init();
 
 // Ensure we checked auth before each page load.
